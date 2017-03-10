@@ -12,13 +12,60 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    static var shareInstance = {
+        return UIApplication.sharedApplication().delegate as! AppDelegate
+    }()
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        UINavigationBar.appearance().barTintColor = UIColor.colorFormHex(0x00CCFF)
+        //Connect facebook
+        connectFacebook(application, launchOptions: launchOptions)
+        //Connect google
+        configSignInByGoogle()
+        configSetRootViewWhenLogin()
         return true
     }
 
+    func configSetRootViewWhenLogin() {
+        //let userInfo = UserInfoModel()
+        //userInfo.loadFromUserDefault()
+        
+      //  if userInfo.idToken != "" {
+            loginSeccess()
+        //} else {
+          //  loginVC()
+        //}
+    }
+    
+    func loginVC() {
+        // get your storyboard
+        let storyboard = UIStoryboard(name: "LoginAndRegister", bundle: nil)
+        
+        // instantiate your desired ViewController
+        let rootController = storyboard.instantiateViewControllerWithIdentifier("LoginNavigationController") as! LoginNavigationController
+        
+        // Because self.window is an optional you should check it's value first and assign your rootViewController
+        if let window = self.window {
+            window.rootViewController = rootController
+        }
+    }
+    
+    func loginSeccess() {
+        
+        // get your storyboard
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        // instantiate your desired ViewController
+        let rootController = storyboard.instantiateViewControllerWithIdentifier("ContainerHomeVC") as! ContainerHomeVC
+        
+        // Because self.window is an optional you should check it's value first and assign your rootViewController
+        if let window = self.window {
+            window.rootViewController = rootController
+        }
+    }
+
+    
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
@@ -35,6 +82,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationDidBecomeActive(application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+        FBSDKAppEvents.activateApp()
+        
+        if application.applicationIconBadgeNumber > 0 {
+            application.applicationIconBadgeNumber = 0
+        }
     }
 
     func applicationWillTerminate(application: UIApplication) {

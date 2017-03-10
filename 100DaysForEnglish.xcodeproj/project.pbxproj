@@ -7,21 +7,206 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0128D7741E5ECEF3004C4305 /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0128D7731E5ECEF3004C4305 /* CAPSPageMenu.swift */; };
+		0139E7FE1E5EDF3300627344 /* AppDelegate+GoogleSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0139E7FC1E5EDF3300627344 /* AppDelegate+GoogleSignIn.swift */; };
+		0139E7FF1E5EDF3300627344 /* AppDelegate+LoginFacebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0139E7FD1E5EDF3300627344 /* AppDelegate+LoginFacebook.swift */; };
+		0139E8021E5EF1CC00627344 /* ListdayTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0139E8011E5EF1CC00627344 /* ListdayTableCell.swift */; };
+		0139E8051E5EF2E700627344 /* HomeNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0139E8041E5EF2E700627344 /* HomeNavigationController.swift */; };
+		0140F8651E5E915900E61089 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0140F8641E5E915900E61089 /* UIColor+Extension.swift */; };
+		0140F8671E5E91AA00E61089 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0140F8661E5E91AA00E61089 /* String+Extension.swift */; };
+		0140F8691E5E91E600E61089 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0140F8681E5E91E600E61089 /* UIImageView+Extension.swift */; };
+		0140F86B1E5E921800E61089 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0140F86A1E5E921800E61089 /* UITextField+Extension.swift */; };
+		0140F86D1E5E96D100E61089 /* UserInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0140F86C1E5E96D100E61089 /* UserInfoModel.swift */; };
+		01644F721E5F0B8C00174953 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01644F711E5F0B8C00174953 /* GoogleService-Info.plist */; };
+		01644FC71E5F0E5000174953 /* 01 The beginning of things - The Railway Children stage 3 CD1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01644F761E5F0E5000174953 /* 01 The beginning of things - The Railway Children stage 3 CD1.mp3 */; };
+		01644FC81E5F0E5000174953 /* 02 Peter and the coal - The Railway Children stage 3 CD1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01644F771E5F0E5000174953 /* 02 Peter and the coal - The Railway Children stage 3 CD1.mp3 */; };
+		01644FC91E5F0E5000174953 /* 03 The old gentleman - The Railway Children stage 3 CD1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01644F781E5F0E5000174953 /* 03 The old gentleman - The Railway Children stage 3 CD1.mp3 */; };
+		01644FCA1E5F0E5000174953 /* 04 Bobbie's ride - The Railway Children stage 3 CD1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01644F791E5F0E5000174953 /* 04 Bobbie's ride - The Railway Children stage 3 CD1.mp3 */; };
+		01644FCB1E5F0E5000174953 /* 05 Saving the train - The Railway Children stage 3 CD1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01644F7A1E5F0E5000174953 /* 05 Saving the train - The Railway Children stage 3 CD1.mp3 */; };
+		01644FCC1E5F0E5000174953 /* 06 A birthday of Perks - The Railway Children stage 3 CD2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01644F7B1E5F0E5000174953 /* 06 A birthday of Perks - The Railway Children stage 3 CD2.mp3 */; };
+		01644FCD1E5F0E5000174953 /* 07 The terrible secret - The Railway Children stage 3 CD2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01644F7C1E5F0E5000174953 /* 07 The terrible secret - The Railway Children stage 3 CD2.mp3 */; };
+		01644FCE1E5F0E5000174953 /* 08 The boy in the red shirt - The Railway Children stage 3 CD2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01644F7D1E5F0E5000174953 /* 08 The boy in the red shirt - The Railway Children stage 3 CD2.mp3 */; };
+		01644FCF1E5F0E5000174953 /* 09 The man at the station - The Railway Children stage 3 CD2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01644F7E1E5F0E5000174953 /* 09 The man at the station - The Railway Children stage 3 CD2.mp3 */; };
+		01644FD01E5F0E5000174953 /* Oxford Bookworms - The Railway Children stage 3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01644F7F1E5F0E5000174953 /* Oxford Bookworms - The Railway Children stage 3.pdf */; };
+		01644FD11E5F0E5000174953 /* 3. The Railway Children (PDF, MP3).rar in Resources */ = {isa = PBXBuildFile; fileRef = 01644F801E5F0E5000174953 /* 3. The Railway Children (PDF, MP3).rar */; };
+		01644FD21E5F0E5000174953 /* A2_shopping_for_clothes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01644F811E5F0E5000174953 /* A2_shopping_for_clothes.mp3 */; };
+		01644FD31E5F0E5000174953 /* Shopping for clothes.docx in Resources */ = {isa = PBXBuildFile; fileRef = 01644F821E5F0E5000174953 /* Shopping for clothes.docx */; };
+		01644FD41E5F0E5000174953 /* Cách Thức gửi làm và gửi email.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01644F841E5F0E5000174953 /* Cách Thức gửi làm và gửi email.pdf */; };
+		01644FD51E5F0E5000174953 /* LỘ TRÌNH HỌC TẠI KHÓA HỌC WAKE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01644F851E5F0E5000174953 /* LỘ TRÌNH HỌC TẠI KHÓA HỌC WAKE.pdf */; };
+		01644FD61E5F0E5000174953 /* Phương pháp đọc 3 bước.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01644F861E5F0E5000174953 /* Phương pháp đọc 3 bước.pdf */; };
+		01644FD71E5F0E5000174953 /* The_last_photo_level_0_02.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01644F881E5F0E5000174953 /* The_last_photo_level_0_02.pdf */; };
+		01644FD81E5F0E5000174953 /* danh ngôn ngày 2.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 01644F8A1E5F0E5000174953 /* danh ngôn ngày 2.rtf */; };
+		01644FD91E5F0E5000174953 /* File ảnh truyện số 1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01644F8B1E5F0E5000174953 /* File ảnh truyện số 1.pdf */; };
+		01644FDA1E5F0E5000174953 /* The_last_photo_level_0_03.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01644F8C1E5F0E5000174953 /* The_last_photo_level_0_03.pdf */; };
+		01644FDB1E5F0E5000174953 /* Danh ngôn ngày 3.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 01644F8E1E5F0E5000174953 /* Danh ngôn ngày 3.rtf */; };
+		01644FDC1E5F0E5000174953 /* file ảnh ngày số 2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01644F8F1E5F0E5000174953 /* file ảnh ngày số 2.pdf */; };
+		01644FDD1E5F0E5000174953 /* The_last_photo_level_0_06.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01644F901E5F0E5000174953 /* The_last_photo_level_0_06.pdf */; };
+		01644FDE1E5F0E5000174953 /* April_in_Moscow_level_0_01.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01644F921E5F0E5000174953 /* April_in_Moscow_level_0_01.pdf */; };
+		01644FDF1E5F0E5100174953 /* Danh ngôn ngày 4.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 01644F931E5F0E5000174953 /* Danh ngôn ngày 4.rtf */; };
+		01644FE01E5F0E5100174953 /* file ảnh ngày số 3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01644F941E5F0E5000174953 /* file ảnh ngày số 3.pdf */; };
+		01644FE11E5F0E5100174953 /* April_in_Moscow_level_0_02.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01644F961E5F0E5000174953 /* April_in_Moscow_level_0_02.pdf */; };
+		01644FE21E5F0E5100174953 /* ảnh ngày 4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01644F971E5F0E5000174953 /* ảnh ngày 4.pdf */; };
+		01644FE31E5F0E5100174953 /* Danh ngôn ngày 5.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 01644F981E5F0E5000174953 /* Danh ngôn ngày 5.rtf */; };
+		01644FE41E5F0E5100174953 /* Danh ngôn ngày 6.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 01644F9A1E5F0E5000174953 /* Danh ngôn ngày 6.rtf */; };
+		01644FE51E5F0E5100174953 /* ngày 6.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01644F9B1E5F0E5000174953 /* ngày 6.pdf */; };
+		01644FE61E5F0E5100174953 /* Phương pháp Shadowing.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01644F9C1E5F0E5000174953 /* Phương pháp Shadowing.pdf */; };
+		01644FE71E5F0E5100174953 /* Danh ngôn ngày 7.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 01644F9E1E5F0E5000174953 /* Danh ngôn ngày 7.rtf */; };
+		01644FE81E5F0E5100174953 /* Email-6.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01644F9F1E5F0E5000174953 /* Email-6.pdf */; };
+		01644FE91E5F0E5100174953 /* Newspaper_Chase_level_0_01.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01644FA01E5F0E5000174953 /* Newspaper_Chase_level_0_01.pdf */; };
+		01644FEA1E5F0E5100174953 /* ảnh ngày 7.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01644FA21E5F0E5000174953 /* ảnh ngày 7.pdf */; };
+		01644FEB1E5F0E5100174953 /* ngày 2(2).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01644FA31E5F0E5000174953 /* ngày 2(2).pdf */; };
+		01644FEC1E5F0E5100174953 /* Danh ngôn ngày 9.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 01644FA51E5F0E5000174953 /* Danh ngôn ngày 9.rtf */; };
+		01644FED1E5F0E5100174953 /* ngày 3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01644FA61E5F0E5000174953 /* ngày 3.pdf */; };
+		01644FEE1E5F0E5100174953 /* Police TV (Oxford Bookworms Starter)_01.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01644FA81E5F0E5000174953 /* Police TV (Oxford Bookworms Starter)_01.pdf */; };
+		01644FEF1E5F0E5100174953 /* thử thách nhỏ ngày 10.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 01644FA91E5F0E5000174953 /* thử thách nhỏ ngày 10.rtf */; };
+		01644FF01E5F0E5100174953 /* Phương pháp nghe 3 bước.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 01644FAB1E5F0E5000174953 /* Phương pháp nghe 3 bước.rtf */; };
+		01644FF11E5F0E5100174953 /* Police TV (Oxford Bookworms Starter)_02.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01644FAC1E5F0E5000174953 /* Police TV (Oxford Bookworms Starter)_02.pdf */; };
+		01644FF21E5F0E5100174953 /* Police TV listen 1 perfect.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 01644FAD1E5F0E5000174953 /* Police TV listen 1 perfect.mp4 */; };
+		01644FF31E5F0E5100174953 /* Police TV (Oxford Bookworms Starter)_03.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01644FAF1E5F0E5000174953 /* Police TV (Oxford Bookworms Starter)_03.pdf */; };
+		01644FF41E5F0E5100174953 /* Police TV listen 3 perfect.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 01644FB01E5F0E5000174953 /* Police TV listen 3 perfect.mp4 */; };
+		01644FF51E5F0E5100174953 /* danh ngôn ngày 13.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 01644FB21E5F0E5000174953 /* danh ngôn ngày 13.rtf */; };
+		01644FF61E5F0E5100174953 /* ngay3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01644FB31E5F0E5000174953 /* ngay3.pdf */; };
+		01644FF71E5F0E5100174953 /* Police TV listen 4 perfect.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 01644FB41E5F0E5000174953 /* Police TV listen 4 perfect.mp4 */; };
+		01644FF81E5F0E5100174953 /* Police TV listen 5 perfect.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 01644FB61E5F0E5000174953 /* Police TV listen 5 perfect.mp4 */; };
+		01644FF91E5F0E5100174953 /* Police TV truyện ngày 14.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01644FB71E5F0E5000174953 /* Police TV truyện ngày 14.pdf */; };
+		01644FFA1E5F0E5100174953 /* Red roses listen 1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 01644FB91E5F0E5000174953 /* Red roses listen 1.mp4 */; };
+		01644FFB1E5F0E5100174953 /* RED ROSES_ngày 15.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01644FBA1E5F0E5000174953 /* RED ROSES_ngày 15.pdf */; };
+		01644FFC1E5F0E5100174953 /* ngày 2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01644FBC1E5F0E5000174953 /* ngày 2.pdf */; };
+		01644FFD1E5F0E5100174953 /* Red roses listen 2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 01644FBD1E5F0E5000174953 /* Red roses listen 2.mp4 */; };
+		01644FFE1E5F0E5100174953 /* ngày 3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01644FBF1E5F0E5000174953 /* ngày 3.pdf */; };
+		01644FFF1E5F0E5100174953 /* Red rose 3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 01644FC01E5F0E5000174953 /* Red rose 3.mp4 */; };
+		016450001E5F0E5100174953 /* ngày 1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01644FC21E5F0E5000174953 /* ngày 1.pdf */; };
+		016450011E5F0E5100174953 /* Sally's phone 1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 01644FC31E5F0E5000174953 /* Sally's phone 1.mp4 */; };
+		016450021E5F0E5100174953 /* A2_trains_and_travel - Part.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01644FC51E5F0E5000174953 /* A2_trains_and_travel - Part.mp3 */; };
+		016450031E5F0E5100174953 /* Travel by trains.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01644FC61E5F0E5000174953 /* Travel by trains.pdf */; };
+		01AF6FC01E626D8800A0761F /* LessonOne.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01AF6FBF1E626D8800A0761F /* LessonOne.storyboard */; };
+		01AF6FC21E629B4600A0761F /* ReadingPdfVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AF6FC11E629B4600A0761F /* ReadingPdfVC.swift */; };
+		01AF6FC41E629B5700A0761F /* DictionaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AF6FC31E629B5700A0761F /* DictionaryVC.swift */; };
+		01AF6FC61E629BE200A0761F /* LessonTwo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01AF6FC51E629BE200A0761F /* LessonTwo.storyboard */; };
+		01AF6FC81E629C3F00A0761F /* UserInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01AF6FC71E629C3F00A0761F /* UserInfo.storyboard */; };
+		01BA7BAE1E5FCB8C007C830D /* LessonDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01BA7BAD1E5FCB8C007C830D /* LessonDetail.storyboard */; };
+		01BA7BB11E5FD149007C830D /* LessonDetailTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BA7BB01E5FD149007C830D /* LessonDetailTabbarController.swift */; };
+		01BA7BB31E5FFE5B007C830D /* ContainerHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BA7BB21E5FFE5B007C830D /* ContainerHomeVC.swift */; };
+		01BA7BB61E6045DA007C830D /* LessonOneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BA7BB51E6045DA007C830D /* LessonOneVC.swift */; };
+		01C39C0C1E514FA300051EEA /* ContainerLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C39C0B1E514FA300051EEA /* ContainerLoginVC.swift */; };
+		01C39C0E1E514FCA00051EEA /* LoginTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C39C0D1E514FCA00051EEA /* LoginTableViewController.swift */; };
+		01C39C101E514FEA00051EEA /* LoginAndRegister.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C39C0F1E514FEA00051EEA /* LoginAndRegister.storyboard */; };
+		01C39C121E51510200051EEA /* LoginNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C39C111E51510200051EEA /* LoginNavigationController.swift */; };
+		01C39CD51E515AC900051EEA /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C39CD11E515AC900051EEA /* AlertView.swift */; };
+		01C39CD61E515AC900051EEA /* ConfirmButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C39CD21E515AC900051EEA /* ConfirmButton.swift */; };
+		01C39CD71E515AC900051EEA /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C39CD31E515AC900051EEA /* Constant.swift */; };
+		01C39CD81E515AC900051EEA /* Reachabilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C39CD41E515AC900051EEA /* Reachabilities.swift */; };
+		01C39CDE1E515B2900051EEA /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C39CDA1E515B2900051EEA /* CALayer+Extension.swift */; };
 		01C47D9E1E4FF1BD00359235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C47D9D1E4FF1BD00359235 /* AppDelegate.swift */; };
-		01C47DA01E4FF1BD00359235 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C47D9F1E4FF1BD00359235 /* ViewController.swift */; };
+		01C47DA01E4FF1BD00359235 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C47D9F1E4FF1BD00359235 /* MainViewController.swift */; };
 		01C47DA31E4FF1BD00359235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C47DA11E4FF1BD00359235 /* Main.storyboard */; };
 		01C47DA51E4FF1BD00359235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01C47DA41E4FF1BD00359235 /* Assets.xcassets */; };
 		01C47DA81E4FF1BD00359235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C47DA61E4FF1BD00359235 /* LaunchScreen.storyboard */; };
+		BC88B8EF461EC5E65DF5A58A /* Pods_100DaysForEnglish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39B0E631175B6360059BCC2 /* Pods_100DaysForEnglish.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0128D7731E5ECEF3004C4305 /* CAPSPageMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPSPageMenu.swift; sourceTree = "<group>"; };
+		0139E7FC1E5EDF3300627344 /* AppDelegate+GoogleSignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+GoogleSignIn.swift"; sourceTree = "<group>"; };
+		0139E7FD1E5EDF3300627344 /* AppDelegate+LoginFacebook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+LoginFacebook.swift"; sourceTree = "<group>"; };
+		0139E8011E5EF1CC00627344 /* ListdayTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListdayTableCell.swift; sourceTree = "<group>"; };
+		0139E8041E5EF2E700627344 /* HomeNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeNavigationController.swift; sourceTree = "<group>"; };
+		0140F8641E5E915900E61089 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		0140F8661E5E91AA00E61089 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		0140F8681E5E91E600E61089 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		0140F86A1E5E921800E61089 /* UITextField+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		0140F86C1E5E96D100E61089 /* UserInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoModel.swift; sourceTree = "<group>"; };
+		01644F711E5F0B8C00174953 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		01644F761E5F0E5000174953 /* 01 The beginning of things - The Railway Children stage 3 CD1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01 The beginning of things - The Railway Children stage 3 CD1.mp3"; sourceTree = "<group>"; };
+		01644F771E5F0E5000174953 /* 02 Peter and the coal - The Railway Children stage 3 CD1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02 Peter and the coal - The Railway Children stage 3 CD1.mp3"; sourceTree = "<group>"; };
+		01644F781E5F0E5000174953 /* 03 The old gentleman - The Railway Children stage 3 CD1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "03 The old gentleman - The Railway Children stage 3 CD1.mp3"; sourceTree = "<group>"; };
+		01644F791E5F0E5000174953 /* 04 Bobbie's ride - The Railway Children stage 3 CD1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "04 Bobbie's ride - The Railway Children stage 3 CD1.mp3"; sourceTree = "<group>"; };
+		01644F7A1E5F0E5000174953 /* 05 Saving the train - The Railway Children stage 3 CD1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "05 Saving the train - The Railway Children stage 3 CD1.mp3"; sourceTree = "<group>"; };
+		01644F7B1E5F0E5000174953 /* 06 A birthday of Perks - The Railway Children stage 3 CD2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "06 A birthday of Perks - The Railway Children stage 3 CD2.mp3"; sourceTree = "<group>"; };
+		01644F7C1E5F0E5000174953 /* 07 The terrible secret - The Railway Children stage 3 CD2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "07 The terrible secret - The Railway Children stage 3 CD2.mp3"; sourceTree = "<group>"; };
+		01644F7D1E5F0E5000174953 /* 08 The boy in the red shirt - The Railway Children stage 3 CD2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "08 The boy in the red shirt - The Railway Children stage 3 CD2.mp3"; sourceTree = "<group>"; };
+		01644F7E1E5F0E5000174953 /* 09 The man at the station - The Railway Children stage 3 CD2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "09 The man at the station - The Railway Children stage 3 CD2.mp3"; sourceTree = "<group>"; };
+		01644F7F1E5F0E5000174953 /* Oxford Bookworms - The Railway Children stage 3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Oxford Bookworms - The Railway Children stage 3.pdf"; sourceTree = "<group>"; };
+		01644F801E5F0E5000174953 /* 3. The Railway Children (PDF, MP3).rar */ = {isa = PBXFileReference; lastKnownFileType = file; path = "3. The Railway Children (PDF, MP3).rar"; sourceTree = "<group>"; };
+		01644F811E5F0E5000174953 /* A2_shopping_for_clothes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = A2_shopping_for_clothes.mp3; sourceTree = "<group>"; };
+		01644F821E5F0E5000174953 /* Shopping for clothes.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Shopping for clothes.docx"; sourceTree = "<group>"; };
+		01644F841E5F0E5000174953 /* Cách Thức gửi làm và gửi email.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Cách Thức gửi làm và gửi email.pdf"; sourceTree = "<group>"; };
+		01644F851E5F0E5000174953 /* LỘ TRÌNH HỌC TẠI KHÓA HỌC WAKE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "LỘ TRÌNH HỌC TẠI KHÓA HỌC WAKE.pdf"; sourceTree = "<group>"; };
+		01644F861E5F0E5000174953 /* Phương pháp đọc 3 bước.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Phương pháp đọc 3 bước.pdf"; sourceTree = "<group>"; };
+		01644F881E5F0E5000174953 /* The_last_photo_level_0_02.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = The_last_photo_level_0_02.pdf; sourceTree = "<group>"; };
+		01644F8A1E5F0E5000174953 /* danh ngôn ngày 2.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "danh ngôn ngày 2.rtf"; sourceTree = "<group>"; };
+		01644F8B1E5F0E5000174953 /* File ảnh truyện số 1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "File ảnh truyện số 1.pdf"; sourceTree = "<group>"; };
+		01644F8C1E5F0E5000174953 /* The_last_photo_level_0_03.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = The_last_photo_level_0_03.pdf; sourceTree = "<group>"; };
+		01644F8E1E5F0E5000174953 /* Danh ngôn ngày 3.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Danh ngôn ngày 3.rtf"; sourceTree = "<group>"; };
+		01644F8F1E5F0E5000174953 /* file ảnh ngày số 2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "file ảnh ngày số 2.pdf"; sourceTree = "<group>"; };
+		01644F901E5F0E5000174953 /* The_last_photo_level_0_06.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = The_last_photo_level_0_06.pdf; sourceTree = "<group>"; };
+		01644F921E5F0E5000174953 /* April_in_Moscow_level_0_01.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = April_in_Moscow_level_0_01.pdf; sourceTree = "<group>"; };
+		01644F931E5F0E5000174953 /* Danh ngôn ngày 4.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Danh ngôn ngày 4.rtf"; sourceTree = "<group>"; };
+		01644F941E5F0E5000174953 /* file ảnh ngày số 3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "file ảnh ngày số 3.pdf"; sourceTree = "<group>"; };
+		01644F961E5F0E5000174953 /* April_in_Moscow_level_0_02.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = April_in_Moscow_level_0_02.pdf; sourceTree = "<group>"; };
+		01644F971E5F0E5000174953 /* ảnh ngày 4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ảnh ngày 4.pdf"; sourceTree = "<group>"; };
+		01644F981E5F0E5000174953 /* Danh ngôn ngày 5.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Danh ngôn ngày 5.rtf"; sourceTree = "<group>"; };
+		01644F9A1E5F0E5000174953 /* Danh ngôn ngày 6.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Danh ngôn ngày 6.rtf"; sourceTree = "<group>"; };
+		01644F9B1E5F0E5000174953 /* ngày 6.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ngày 6.pdf"; sourceTree = "<group>"; };
+		01644F9C1E5F0E5000174953 /* Phương pháp Shadowing.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Phương pháp Shadowing.pdf"; sourceTree = "<group>"; };
+		01644F9E1E5F0E5000174953 /* Danh ngôn ngày 7.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Danh ngôn ngày 7.rtf"; sourceTree = "<group>"; };
+		01644F9F1E5F0E5000174953 /* Email-6.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Email-6.pdf"; sourceTree = "<group>"; };
+		01644FA01E5F0E5000174953 /* Newspaper_Chase_level_0_01.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Newspaper_Chase_level_0_01.pdf; sourceTree = "<group>"; };
+		01644FA21E5F0E5000174953 /* ảnh ngày 7.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ảnh ngày 7.pdf"; sourceTree = "<group>"; };
+		01644FA31E5F0E5000174953 /* ngày 2(2).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ngày 2(2).pdf"; sourceTree = "<group>"; };
+		01644FA51E5F0E5000174953 /* Danh ngôn ngày 9.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Danh ngôn ngày 9.rtf"; sourceTree = "<group>"; };
+		01644FA61E5F0E5000174953 /* ngày 3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ngày 3.pdf"; sourceTree = "<group>"; };
+		01644FA81E5F0E5000174953 /* Police TV (Oxford Bookworms Starter)_01.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Police TV (Oxford Bookworms Starter)_01.pdf"; sourceTree = "<group>"; };
+		01644FA91E5F0E5000174953 /* thử thách nhỏ ngày 10.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "thử thách nhỏ ngày 10.rtf"; sourceTree = "<group>"; };
+		01644FAB1E5F0E5000174953 /* Phương pháp nghe 3 bước.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Phương pháp nghe 3 bước.rtf"; sourceTree = "<group>"; };
+		01644FAC1E5F0E5000174953 /* Police TV (Oxford Bookworms Starter)_02.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Police TV (Oxford Bookworms Starter)_02.pdf"; sourceTree = "<group>"; };
+		01644FAD1E5F0E5000174953 /* Police TV listen 1 perfect.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Police TV listen 1 perfect.mp4"; sourceTree = "<group>"; };
+		01644FAF1E5F0E5000174953 /* Police TV (Oxford Bookworms Starter)_03.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Police TV (Oxford Bookworms Starter)_03.pdf"; sourceTree = "<group>"; };
+		01644FB01E5F0E5000174953 /* Police TV listen 3 perfect.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Police TV listen 3 perfect.mp4"; sourceTree = "<group>"; };
+		01644FB21E5F0E5000174953 /* danh ngôn ngày 13.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "danh ngôn ngày 13.rtf"; sourceTree = "<group>"; };
+		01644FB31E5F0E5000174953 /* ngay3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ngay3.pdf; sourceTree = "<group>"; };
+		01644FB41E5F0E5000174953 /* Police TV listen 4 perfect.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Police TV listen 4 perfect.mp4"; sourceTree = "<group>"; };
+		01644FB61E5F0E5000174953 /* Police TV listen 5 perfect.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Police TV listen 5 perfect.mp4"; sourceTree = "<group>"; };
+		01644FB71E5F0E5000174953 /* Police TV truyện ngày 14.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Police TV truyện ngày 14.pdf"; sourceTree = "<group>"; };
+		01644FB91E5F0E5000174953 /* Red roses listen 1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Red roses listen 1.mp4"; sourceTree = "<group>"; };
+		01644FBA1E5F0E5000174953 /* RED ROSES_ngày 15.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "RED ROSES_ngày 15.pdf"; sourceTree = "<group>"; };
+		01644FBC1E5F0E5000174953 /* ngày 2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ngày 2.pdf"; sourceTree = "<group>"; };
+		01644FBD1E5F0E5000174953 /* Red roses listen 2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Red roses listen 2.mp4"; sourceTree = "<group>"; };
+		01644FBF1E5F0E5000174953 /* ngày 3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ngày 3.pdf"; sourceTree = "<group>"; };
+		01644FC01E5F0E5000174953 /* Red rose 3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Red rose 3.mp4"; sourceTree = "<group>"; };
+		01644FC21E5F0E5000174953 /* ngày 1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ngày 1.pdf"; sourceTree = "<group>"; };
+		01644FC31E5F0E5000174953 /* Sally's phone 1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sally's phone 1.mp4"; sourceTree = "<group>"; };
+		01644FC51E5F0E5000174953 /* A2_trains_and_travel - Part.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "A2_trains_and_travel - Part.mp3"; sourceTree = "<group>"; };
+		01644FC61E5F0E5000174953 /* Travel by trains.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Travel by trains.pdf"; sourceTree = "<group>"; };
+		01AADEDC1E5EB236000099E2 /* 100DaysForEnglish-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "100DaysForEnglish-Bridging-Header.h"; sourceTree = "<group>"; };
+		01AF6FBF1E626D8800A0761F /* LessonOne.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LessonOne.storyboard; sourceTree = "<group>"; };
+		01AF6FC11E629B4600A0761F /* ReadingPdfVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingPdfVC.swift; sourceTree = "<group>"; };
+		01AF6FC31E629B5700A0761F /* DictionaryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryVC.swift; sourceTree = "<group>"; };
+		01AF6FC51E629BE200A0761F /* LessonTwo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LessonTwo.storyboard; sourceTree = "<group>"; };
+		01AF6FC71E629C3F00A0761F /* UserInfo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UserInfo.storyboard; sourceTree = "<group>"; };
+		01BA7BAD1E5FCB8C007C830D /* LessonDetail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LessonDetail.storyboard; sourceTree = "<group>"; };
+		01BA7BB01E5FD149007C830D /* LessonDetailTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonDetailTabbarController.swift; sourceTree = "<group>"; };
+		01BA7BB21E5FFE5B007C830D /* ContainerHomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerHomeVC.swift; sourceTree = "<group>"; };
+		01BA7BB51E6045DA007C830D /* LessonOneVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonOneVC.swift; sourceTree = "<group>"; };
+		01C39C0B1E514FA300051EEA /* ContainerLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerLoginVC.swift; sourceTree = "<group>"; };
+		01C39C0D1E514FCA00051EEA /* LoginTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTableViewController.swift; sourceTree = "<group>"; };
+		01C39C0F1E514FEA00051EEA /* LoginAndRegister.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginAndRegister.storyboard; sourceTree = "<group>"; };
+		01C39C111E51510200051EEA /* LoginNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginNavigationController.swift; sourceTree = "<group>"; };
+		01C39CD11E515AC900051EEA /* AlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		01C39CD21E515AC900051EEA /* ConfirmButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmButton.swift; sourceTree = "<group>"; };
+		01C39CD31E515AC900051EEA /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		01C39CD41E515AC900051EEA /* Reachabilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachabilities.swift; sourceTree = "<group>"; };
+		01C39CDA1E515B2900051EEA /* CALayer+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Extension.swift"; sourceTree = "<group>"; };
 		01C47D9A1E4FF1BD00359235 /* 100DaysForEnglish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 100DaysForEnglish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01C47D9D1E4FF1BD00359235 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		01C47D9F1E4FF1BD00359235 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01C47D9F1E4FF1BD00359235 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../../MainViewController.swift; sourceTree = "<group>"; };
 		01C47DA21E4FF1BD00359235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		01C47DA41E4FF1BD00359235 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01C47DA41E4FF1BD00359235 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		01C47DA71E4FF1BD00359235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		01C47DA91E4FF1BD00359235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01C47DA91E4FF1BD00359235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		07A5F188D8B4BBAD4A3BEB30 /* Pods-100DaysForEnglish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-100DaysForEnglish.release.xcconfig"; path = "Pods/Target Support Files/Pods-100DaysForEnglish/Pods-100DaysForEnglish.release.xcconfig"; sourceTree = "<group>"; };
+		A98FAEFF5E98CEA0D81F44C7 /* Pods-100DaysForEnglish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-100DaysForEnglish.debug.xcconfig"; path = "Pods/Target Support Files/Pods-100DaysForEnglish/Pods-100DaysForEnglish.debug.xcconfig"; sourceTree = "<group>"; };
+		F39B0E631175B6360059BCC2 /* Pods_100DaysForEnglish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_100DaysForEnglish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +214,381 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC88B8EF461EC5E65DF5A58A /* Pods_100DaysForEnglish.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0139E8001E5EF19800627344 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0139E8011E5EF1CC00627344 /* ListdayTableCell.swift */,
+			);
+			name = Cell;
+			path = ../LoginAndRegister/Cell;
+			sourceTree = "<group>";
+		};
+		0139E8031E5EF24000627344 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0139E8001E5EF19800627344 /* Cell */,
+				0139E8041E5EF2E700627344 /* HomeNavigationController.swift */,
+				01C47D9F1E4FF1BD00359235 /* MainViewController.swift */,
+				01BA7BB21E5FFE5B007C830D /* ContainerHomeVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		01644F731E5F0E5000174953 /* Bài ôn tập sau 1 tuần học! (sau ngày thứ 6) */ = {
+			isa = PBXGroup;
+			children = (
+				01644F741E5F0E5000174953 /* 3. The Railway Children (PDF, MP3) */,
+				01644F801E5F0E5000174953 /* 3. The Railway Children (PDF, MP3).rar */,
+				01644F811E5F0E5000174953 /* A2_shopping_for_clothes.mp3 */,
+				01644F821E5F0E5000174953 /* Shopping for clothes.docx */,
+			);
+			path = "Bài ôn tập sau 1 tuần học! (sau ngày thứ 6)";
+			sourceTree = "<group>";
+		};
+		01644F741E5F0E5000174953 /* 3. The Railway Children (PDF, MP3) */ = {
+			isa = PBXGroup;
+			children = (
+				01644F751E5F0E5000174953 /* OBL St3 Children Railway */,
+			);
+			path = "3. The Railway Children (PDF, MP3)";
+			sourceTree = "<group>";
+		};
+		01644F751E5F0E5000174953 /* OBL St3 Children Railway */ = {
+			isa = PBXGroup;
+			children = (
+				01644F761E5F0E5000174953 /* 01 The beginning of things - The Railway Children stage 3 CD1.mp3 */,
+				01644F771E5F0E5000174953 /* 02 Peter and the coal - The Railway Children stage 3 CD1.mp3 */,
+				01644F781E5F0E5000174953 /* 03 The old gentleman - The Railway Children stage 3 CD1.mp3 */,
+				01644F791E5F0E5000174953 /* 04 Bobbie's ride - The Railway Children stage 3 CD1.mp3 */,
+				01644F7A1E5F0E5000174953 /* 05 Saving the train - The Railway Children stage 3 CD1.mp3 */,
+				01644F7B1E5F0E5000174953 /* 06 A birthday of Perks - The Railway Children stage 3 CD2.mp3 */,
+				01644F7C1E5F0E5000174953 /* 07 The terrible secret - The Railway Children stage 3 CD2.mp3 */,
+				01644F7D1E5F0E5000174953 /* 08 The boy in the red shirt - The Railway Children stage 3 CD2.mp3 */,
+				01644F7E1E5F0E5000174953 /* 09 The man at the station - The Railway Children stage 3 CD2.mp3 */,
+				01644F7F1E5F0E5000174953 /* Oxford Bookworms - The Railway Children stage 3.pdf */,
+			);
+			path = "OBL St3 Children Railway";
+			sourceTree = "<group>";
+		};
+		01644F831E5F0E5000174953 /* Ngày 0 */ = {
+			isa = PBXGroup;
+			children = (
+				01644F841E5F0E5000174953 /* Cách Thức gửi làm và gửi email.pdf */,
+				01644F851E5F0E5000174953 /* LỘ TRÌNH HỌC TẠI KHÓA HỌC WAKE.pdf */,
+				01644F861E5F0E5000174953 /* Phương pháp đọc 3 bước.pdf */,
+			);
+			path = "Ngày 0";
+			sourceTree = "<group>";
+		};
+		01644F871E5F0E5000174953 /* Ngày 1 */ = {
+			isa = PBXGroup;
+			children = (
+				01644F881E5F0E5000174953 /* The_last_photo_level_0_02.pdf */,
+			);
+			path = "Ngày 1";
+			sourceTree = "<group>";
+		};
+		01644F891E5F0E5000174953 /* Ngày 2 */ = {
+			isa = PBXGroup;
+			children = (
+				01644F8A1E5F0E5000174953 /* danh ngôn ngày 2.rtf */,
+				01644F8B1E5F0E5000174953 /* File ảnh truyện số 1.pdf */,
+				01644F8C1E5F0E5000174953 /* The_last_photo_level_0_03.pdf */,
+			);
+			path = "Ngày 2";
+			sourceTree = "<group>";
+		};
+		01644F8D1E5F0E5000174953 /* Ngày 3 */ = {
+			isa = PBXGroup;
+			children = (
+				01644F8E1E5F0E5000174953 /* Danh ngôn ngày 3.rtf */,
+				01644F8F1E5F0E5000174953 /* file ảnh ngày số 2.pdf */,
+				01644F901E5F0E5000174953 /* The_last_photo_level_0_06.pdf */,
+			);
+			path = "Ngày 3";
+			sourceTree = "<group>";
+		};
+		01644F911E5F0E5000174953 /* Ngày 4 */ = {
+			isa = PBXGroup;
+			children = (
+				01644F921E5F0E5000174953 /* April_in_Moscow_level_0_01.pdf */,
+				01644F931E5F0E5000174953 /* Danh ngôn ngày 4.rtf */,
+				01644F941E5F0E5000174953 /* file ảnh ngày số 3.pdf */,
+			);
+			path = "Ngày 4";
+			sourceTree = "<group>";
+		};
+		01644F951E5F0E5000174953 /* Ngày 5 */ = {
+			isa = PBXGroup;
+			children = (
+				01644F961E5F0E5000174953 /* April_in_Moscow_level_0_02.pdf */,
+				01644F971E5F0E5000174953 /* ảnh ngày 4.pdf */,
+				01644F981E5F0E5000174953 /* Danh ngôn ngày 5.rtf */,
+			);
+			path = "Ngày 5";
+			sourceTree = "<group>";
+		};
+		01644F991E5F0E5000174953 /* Ngày 6 */ = {
+			isa = PBXGroup;
+			children = (
+				01644F9A1E5F0E5000174953 /* Danh ngôn ngày 6.rtf */,
+				01644F9B1E5F0E5000174953 /* ngày 6.pdf */,
+				01644F9C1E5F0E5000174953 /* Phương pháp Shadowing.pdf */,
+			);
+			path = "Ngày 6";
+			sourceTree = "<group>";
+		};
+		01644F9D1E5F0E5000174953 /* Ngày 7 */ = {
+			isa = PBXGroup;
+			children = (
+				01644F9E1E5F0E5000174953 /* Danh ngôn ngày 7.rtf */,
+				01644F9F1E5F0E5000174953 /* Email-6.pdf */,
+				01644FA01E5F0E5000174953 /* Newspaper_Chase_level_0_01.pdf */,
+			);
+			path = "Ngày 7";
+			sourceTree = "<group>";
+		};
+		01644FA11E5F0E5000174953 /* Ngày 8 */ = {
+			isa = PBXGroup;
+			children = (
+				01644FA21E5F0E5000174953 /* ảnh ngày 7.pdf */,
+				01644FA31E5F0E5000174953 /* ngày 2(2).pdf */,
+			);
+			path = "Ngày 8";
+			sourceTree = "<group>";
+		};
+		01644FA41E5F0E5000174953 /* Ngày 9 */ = {
+			isa = PBXGroup;
+			children = (
+				01644FA51E5F0E5000174953 /* Danh ngôn ngày 9.rtf */,
+				01644FA61E5F0E5000174953 /* ngày 3.pdf */,
+			);
+			path = "Ngày 9";
+			sourceTree = "<group>";
+		};
+		01644FA71E5F0E5000174953 /* Ngày 10 */ = {
+			isa = PBXGroup;
+			children = (
+				01644FA81E5F0E5000174953 /* Police TV (Oxford Bookworms Starter)_01.pdf */,
+				01644FA91E5F0E5000174953 /* thử thách nhỏ ngày 10.rtf */,
+			);
+			path = "Ngày 10";
+			sourceTree = "<group>";
+		};
+		01644FAA1E5F0E5000174953 /* Ngày 11 */ = {
+			isa = PBXGroup;
+			children = (
+				01644FAB1E5F0E5000174953 /* Phương pháp nghe 3 bước.rtf */,
+				01644FAC1E5F0E5000174953 /* Police TV (Oxford Bookworms Starter)_02.pdf */,
+				01644FAD1E5F0E5000174953 /* Police TV listen 1 perfect.mp4 */,
+			);
+			path = "Ngày 11";
+			sourceTree = "<group>";
+		};
+		01644FAE1E5F0E5000174953 /* Ngày 12 */ = {
+			isa = PBXGroup;
+			children = (
+				01644FAF1E5F0E5000174953 /* Police TV (Oxford Bookworms Starter)_03.pdf */,
+				01644FB01E5F0E5000174953 /* Police TV listen 3 perfect.mp4 */,
+			);
+			path = "Ngày 12";
+			sourceTree = "<group>";
+		};
+		01644FB11E5F0E5000174953 /* Ngày 13 */ = {
+			isa = PBXGroup;
+			children = (
+				01644FB21E5F0E5000174953 /* danh ngôn ngày 13.rtf */,
+				01644FB31E5F0E5000174953 /* ngay3.pdf */,
+				01644FB41E5F0E5000174953 /* Police TV listen 4 perfect.mp4 */,
+			);
+			path = "Ngày 13";
+			sourceTree = "<group>";
+		};
+		01644FB51E5F0E5000174953 /* Ngày 14 */ = {
+			isa = PBXGroup;
+			children = (
+				01644FB61E5F0E5000174953 /* Police TV listen 5 perfect.mp4 */,
+				01644FB71E5F0E5000174953 /* Police TV truyện ngày 14.pdf */,
+			);
+			path = "Ngày 14";
+			sourceTree = "<group>";
+		};
+		01644FB81E5F0E5000174953 /* Ngày 15 */ = {
+			isa = PBXGroup;
+			children = (
+				01644FB91E5F0E5000174953 /* Red roses listen 1.mp4 */,
+				01644FBA1E5F0E5000174953 /* RED ROSES_ngày 15.pdf */,
+			);
+			path = "Ngày 15";
+			sourceTree = "<group>";
+		};
+		01644FBB1E5F0E5000174953 /* Ngày 16 */ = {
+			isa = PBXGroup;
+			children = (
+				01644FBC1E5F0E5000174953 /* ngày 2.pdf */,
+				01644FBD1E5F0E5000174953 /* Red roses listen 2.mp4 */,
+			);
+			path = "Ngày 16";
+			sourceTree = "<group>";
+		};
+		01644FBE1E5F0E5000174953 /* Ngày 17 */ = {
+			isa = PBXGroup;
+			children = (
+				01644FBF1E5F0E5000174953 /* ngày 3.pdf */,
+				01644FC01E5F0E5000174953 /* Red rose 3.mp4 */,
+			);
+			path = "Ngày 17";
+			sourceTree = "<group>";
+		};
+		01644FC11E5F0E5000174953 /* Ngày 18 */ = {
+			isa = PBXGroup;
+			children = (
+				01644FC21E5F0E5000174953 /* ngày 1.pdf */,
+				01644FC31E5F0E5000174953 /* Sally's phone 1.mp4 */,
+			);
+			path = "Ngày 18";
+			sourceTree = "<group>";
+		};
+		01644FC41E5F0E5000174953 /* Ôn luyện sau ngày 12 */ = {
+			isa = PBXGroup;
+			children = (
+				01644FC51E5F0E5000174953 /* A2_trains_and_travel - Part.mp3 */,
+				01644FC61E5F0E5000174953 /* Travel by trains.pdf */,
+			);
+			path = "Ôn luyện sau ngày 12";
+			sourceTree = "<group>";
+		};
+		01BA7BAF1E5FD111007C830D /* LessonDetail */ = {
+			isa = PBXGroup;
+			children = (
+				01BA7BB41E6045BD007C830D /* LessonOne */,
+				01BA7BB01E5FD149007C830D /* LessonDetailTabbarController.swift */,
+			);
+			path = LessonDetail;
+			sourceTree = "<group>";
+		};
+		01BA7BB41E6045BD007C830D /* LessonOne */ = {
+			isa = PBXGroup;
+			children = (
+				01BA7BB51E6045DA007C830D /* LessonOneVC.swift */,
+				01AF6FC11E629B4600A0761F /* ReadingPdfVC.swift */,
+				01AF6FC31E629B5700A0761F /* DictionaryVC.swift */,
+			);
+			path = LessonOne;
+			sourceTree = "<group>";
+		};
+		01C39C051E514DB500051EEA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				01644F731E5F0E5000174953 /* Bài ôn tập sau 1 tuần học! (sau ngày thứ 6) */,
+				01644F831E5F0E5000174953 /* Ngày 0 */,
+				01644F871E5F0E5000174953 /* Ngày 1 */,
+				01644F891E5F0E5000174953 /* Ngày 2 */,
+				01644F8D1E5F0E5000174953 /* Ngày 3 */,
+				01644F911E5F0E5000174953 /* Ngày 4 */,
+				01644F951E5F0E5000174953 /* Ngày 5 */,
+				01644F991E5F0E5000174953 /* Ngày 6 */,
+				01644F9D1E5F0E5000174953 /* Ngày 7 */,
+				01644FA11E5F0E5000174953 /* Ngày 8 */,
+				01644FA41E5F0E5000174953 /* Ngày 9 */,
+				01644FA71E5F0E5000174953 /* Ngày 10 */,
+				01644FAA1E5F0E5000174953 /* Ngày 11 */,
+				01644FAE1E5F0E5000174953 /* Ngày 12 */,
+				01644FB11E5F0E5000174953 /* Ngày 13 */,
+				01644FB51E5F0E5000174953 /* Ngày 14 */,
+				01644FB81E5F0E5000174953 /* Ngày 15 */,
+				01644FBB1E5F0E5000174953 /* Ngày 16 */,
+				01644FBE1E5F0E5000174953 /* Ngày 17 */,
+				01644FC11E5F0E5000174953 /* Ngày 18 */,
+				01644FC41E5F0E5000174953 /* Ôn luyện sau ngày 12 */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		01C39C061E514E7D00051EEA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				01BA7BAF1E5FD111007C830D /* LessonDetail */,
+				0139E8031E5EF24000627344 /* Home */,
+				01C39C0A1E514F7400051EEA /* LoginAndRegister */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		01C39C071E514E7D00051EEA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0140F86C1E5E96D100E61089 /* UserInfoModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		01C39C081E514E7D00051EEA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				01C47DA11E4FF1BD00359235 /* Main.storyboard */,
+				01C47DA61E4FF1BD00359235 /* LaunchScreen.storyboard */,
+				01C39C0F1E514FEA00051EEA /* LoginAndRegister.storyboard */,
+				01BA7BAD1E5FCB8C007C830D /* LessonDetail.storyboard */,
+				01AF6FBF1E626D8800A0761F /* LessonOne.storyboard */,
+				01AF6FC51E629BE200A0761F /* LessonTwo.storyboard */,
+				01AF6FC71E629C3F00A0761F /* UserInfo.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		01C39C091E514E7D00051EEA /* Support file */ = {
+			isa = PBXGroup;
+			children = (
+				0128D7731E5ECEF3004C4305 /* CAPSPageMenu.swift */,
+				01C39CD11E515AC900051EEA /* AlertView.swift */,
+				01C39CD21E515AC900051EEA /* ConfirmButton.swift */,
+				01C39CD31E515AC900051EEA /* Constant.swift */,
+				01C39CD41E515AC900051EEA /* Reachabilities.swift */,
+				01C47DA41E4FF1BD00359235 /* Assets.xcassets */,
+				01C47DA91E4FF1BD00359235 /* Info.plist */,
+				01644F711E5F0B8C00174953 /* GoogleService-Info.plist */,
+				01AADEDC1E5EB236000099E2 /* 100DaysForEnglish-Bridging-Header.h */,
+			);
+			path = "Support file";
+			sourceTree = "<group>";
+		};
+		01C39C0A1E514F7400051EEA /* LoginAndRegister */ = {
+			isa = PBXGroup;
+			children = (
+				01C39C0B1E514FA300051EEA /* ContainerLoginVC.swift */,
+				01C39C0D1E514FCA00051EEA /* LoginTableViewController.swift */,
+				01C39C111E51510200051EEA /* LoginNavigationController.swift */,
+			);
+			path = LoginAndRegister;
+			sourceTree = "<group>";
+		};
+		01C39CD91E515B2900051EEA /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				01C39CDA1E515B2900051EEA /* CALayer+Extension.swift */,
+				0140F8641E5E915900E61089 /* UIColor+Extension.swift */,
+				0140F8661E5E91AA00E61089 /* String+Extension.swift */,
+				0140F8681E5E91E600E61089 /* UIImageView+Extension.swift */,
+				0140F86A1E5E921800E61089 /* UITextField+Extension.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
 		01C47D911E4FF1BD00359235 = {
 			isa = PBXGroup;
 			children = (
 				01C47D9C1E4FF1BD00359235 /* 100DaysForEnglish */,
 				01C47D9B1E4FF1BD00359235 /* Products */,
+				3BF45E4F3F4FBF0A2B51B8E3 /* Pods */,
+				1B0C622E3281A32D5BD6B9A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +604,33 @@
 			isa = PBXGroup;
 			children = (
 				01C47D9D1E4FF1BD00359235 /* AppDelegate.swift */,
-				01C47D9F1E4FF1BD00359235 /* ViewController.swift */,
-				01C47DA11E4FF1BD00359235 /* Main.storyboard */,
-				01C47DA41E4FF1BD00359235 /* Assets.xcassets */,
-				01C47DA61E4FF1BD00359235 /* LaunchScreen.storyboard */,
-				01C47DA91E4FF1BD00359235 /* Info.plist */,
+				0139E7FC1E5EDF3300627344 /* AppDelegate+GoogleSignIn.swift */,
+				0139E7FD1E5EDF3300627344 /* AppDelegate+LoginFacebook.swift */,
+				01C39C061E514E7D00051EEA /* Controllers */,
+				01C39C071E514E7D00051EEA /* Models */,
+				01C39C081E514E7D00051EEA /* Storyboards */,
+				01C39CD91E515B2900051EEA /* Extention */,
+				01C39C091E514E7D00051EEA /* Support file */,
+				01C39C051E514DB500051EEA /* Data */,
 			);
 			path = 100DaysForEnglish;
+			sourceTree = "<group>";
+		};
+		1B0C622E3281A32D5BD6B9A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F39B0E631175B6360059BCC2 /* Pods_100DaysForEnglish.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BF45E4F3F4FBF0A2B51B8E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A98FAEFF5E98CEA0D81F44C7 /* Pods-100DaysForEnglish.debug.xcconfig */,
+				07A5F188D8B4BBAD4A3BEB30 /* Pods-100DaysForEnglish.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +640,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01C47DAC1E4FF1BD00359235 /* Build configuration list for PBXNativeTarget "100DaysForEnglish" */;
 			buildPhases = (
+				1585B69BE8C0B631C3C09345 /* [CP] Check Pods Manifest.lock */,
 				01C47D961E4FF1BD00359235 /* Sources */,
 				01C47D971E4FF1BD00359235 /* Frameworks */,
 				01C47D981E4FF1BD00359235 /* Resources */,
+				C05409126EBD82EE64C6FBF7 /* [CP] Embed Pods Frameworks */,
+				87D2AD31238769B7A480C547 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +668,8 @@
 				TargetAttributes = {
 					01C47D991E4FF1BD00359235 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5VNQ389A9X;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -122,21 +696,159 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01644FEB1E5F0E5100174953 /* ngày 2(2).pdf in Resources */,
+				01AF6FC01E626D8800A0761F /* LessonOne.storyboard in Resources */,
 				01C47DA81E4FF1BD00359235 /* LaunchScreen.storyboard in Resources */,
+				01644FFF1E5F0E5100174953 /* Red rose 3.mp4 in Resources */,
 				01C47DA51E4FF1BD00359235 /* Assets.xcassets in Resources */,
+				01644FF51E5F0E5100174953 /* danh ngôn ngày 13.rtf in Resources */,
+				01644FF01E5F0E5100174953 /* Phương pháp nghe 3 bước.rtf in Resources */,
+				01644FF61E5F0E5100174953 /* ngay3.pdf in Resources */,
+				01644FDF1E5F0E5100174953 /* Danh ngôn ngày 4.rtf in Resources */,
+				01644FF41E5F0E5100174953 /* Police TV listen 3 perfect.mp4 in Resources */,
+				016450001E5F0E5100174953 /* ngày 1.pdf in Resources */,
+				01644F721E5F0B8C00174953 /* GoogleService-Info.plist in Resources */,
+				01644FF31E5F0E5100174953 /* Police TV (Oxford Bookworms Starter)_03.pdf in Resources */,
+				01644FFE1E5F0E5100174953 /* ngày 3.pdf in Resources */,
+				01644FE91E5F0E5100174953 /* Newspaper_Chase_level_0_01.pdf in Resources */,
+				01644FCC1E5F0E5000174953 /* 06 A birthday of Perks - The Railway Children stage 3 CD2.mp3 in Resources */,
+				01644FFA1E5F0E5100174953 /* Red roses listen 1.mp4 in Resources */,
+				016450031E5F0E5100174953 /* Travel by trains.pdf in Resources */,
+				01644FE01E5F0E5100174953 /* file ảnh ngày số 3.pdf in Resources */,
+				01644FD31E5F0E5000174953 /* Shopping for clothes.docx in Resources */,
+				01644FED1E5F0E5100174953 /* ngày 3.pdf in Resources */,
+				01644FEA1E5F0E5100174953 /* ảnh ngày 7.pdf in Resources */,
+				01644FFD1E5F0E5100174953 /* Red roses listen 2.mp4 in Resources */,
+				01644FD41E5F0E5000174953 /* Cách Thức gửi làm và gửi email.pdf in Resources */,
+				01644FF21E5F0E5100174953 /* Police TV listen 1 perfect.mp4 in Resources */,
+				01644FD11E5F0E5000174953 /* 3. The Railway Children (PDF, MP3).rar in Resources */,
+				01644FE61E5F0E5100174953 /* Phương pháp Shadowing.pdf in Resources */,
+				01644FCE1E5F0E5000174953 /* 08 The boy in the red shirt - The Railway Children stage 3 CD2.mp3 in Resources */,
+				01644FF91E5F0E5100174953 /* Police TV truyện ngày 14.pdf in Resources */,
+				01644FFB1E5F0E5100174953 /* RED ROSES_ngày 15.pdf in Resources */,
+				016450021E5F0E5100174953 /* A2_trains_and_travel - Part.mp3 in Resources */,
+				01AF6FC81E629C3F00A0761F /* UserInfo.storyboard in Resources */,
+				01644FCA1E5F0E5000174953 /* 04 Bobbie's ride - The Railway Children stage 3 CD1.mp3 in Resources */,
+				01644FDC1E5F0E5000174953 /* file ảnh ngày số 2.pdf in Resources */,
+				01644FE51E5F0E5100174953 /* ngày 6.pdf in Resources */,
+				01644FD51E5F0E5000174953 /* LỘ TRÌNH HỌC TẠI KHÓA HỌC WAKE.pdf in Resources */,
+				01644FC71E5F0E5000174953 /* 01 The beginning of things - The Railway Children stage 3 CD1.mp3 in Resources */,
+				01644FF11E5F0E5100174953 /* Police TV (Oxford Bookworms Starter)_02.pdf in Resources */,
+				01644FE21E5F0E5100174953 /* ảnh ngày 4.pdf in Resources */,
+				01644FCD1E5F0E5000174953 /* 07 The terrible secret - The Railway Children stage 3 CD2.mp3 in Resources */,
+				01644FDD1E5F0E5000174953 /* The_last_photo_level_0_06.pdf in Resources */,
+				01644FEC1E5F0E5100174953 /* Danh ngôn ngày 9.rtf in Resources */,
+				01644FD21E5F0E5000174953 /* A2_shopping_for_clothes.mp3 in Resources */,
 				01C47DA31E4FF1BD00359235 /* Main.storyboard in Resources */,
+				01644FE71E5F0E5100174953 /* Danh ngôn ngày 7.rtf in Resources */,
+				01644FE11E5F0E5100174953 /* April_in_Moscow_level_0_02.pdf in Resources */,
+				01644FFC1E5F0E5100174953 /* ngày 2.pdf in Resources */,
+				01644FD01E5F0E5000174953 /* Oxford Bookworms - The Railway Children stage 3.pdf in Resources */,
+				01BA7BAE1E5FCB8C007C830D /* LessonDetail.storyboard in Resources */,
+				01644FDE1E5F0E5000174953 /* April_in_Moscow_level_0_01.pdf in Resources */,
+				01644FD91E5F0E5000174953 /* File ảnh truyện số 1.pdf in Resources */,
+				01644FF81E5F0E5100174953 /* Police TV listen 5 perfect.mp4 in Resources */,
+				01644FC81E5F0E5000174953 /* 02 Peter and the coal - The Railway Children stage 3 CD1.mp3 in Resources */,
+				01644FDB1E5F0E5000174953 /* Danh ngôn ngày 3.rtf in Resources */,
+				01AF6FC61E629BE200A0761F /* LessonTwo.storyboard in Resources */,
+				01644FEE1E5F0E5100174953 /* Police TV (Oxford Bookworms Starter)_01.pdf in Resources */,
+				01644FE31E5F0E5100174953 /* Danh ngôn ngày 5.rtf in Resources */,
+				01644FDA1E5F0E5000174953 /* The_last_photo_level_0_03.pdf in Resources */,
+				01644FF71E5F0E5100174953 /* Police TV listen 4 perfect.mp4 in Resources */,
+				01644FEF1E5F0E5100174953 /* thử thách nhỏ ngày 10.rtf in Resources */,
+				01644FE41E5F0E5100174953 /* Danh ngôn ngày 6.rtf in Resources */,
+				01644FCF1E5F0E5000174953 /* 09 The man at the station - The Railway Children stage 3 CD2.mp3 in Resources */,
+				01644FE81E5F0E5100174953 /* Email-6.pdf in Resources */,
+				01644FD81E5F0E5000174953 /* danh ngôn ngày 2.rtf in Resources */,
+				01644FD61E5F0E5000174953 /* Phương pháp đọc 3 bước.pdf in Resources */,
+				01644FC91E5F0E5000174953 /* 03 The old gentleman - The Railway Children stage 3 CD1.mp3 in Resources */,
+				016450011E5F0E5100174953 /* Sally's phone 1.mp4 in Resources */,
+				01644FD71E5F0E5000174953 /* The_last_photo_level_0_02.pdf in Resources */,
+				01C39C101E514FEA00051EEA /* LoginAndRegister.storyboard in Resources */,
+				01644FCB1E5F0E5000174953 /* 05 Saving the train - The Railway Children stage 3 CD1.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1585B69BE8C0B631C3C09345 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		87D2AD31238769B7A480C547 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-100DaysForEnglish/Pods-100DaysForEnglish-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C05409126EBD82EE64C6FBF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-100DaysForEnglish/Pods-100DaysForEnglish-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		01C47D961E4FF1BD00359235 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01C47DA01E4FF1BD00359235 /* ViewController.swift in Sources */,
+				01C39C0C1E514FA300051EEA /* ContainerLoginVC.swift in Sources */,
+				01C39CD71E515AC900051EEA /* Constant.swift in Sources */,
+				01AF6FC21E629B4600A0761F /* ReadingPdfVC.swift in Sources */,
+				0139E8021E5EF1CC00627344 /* ListdayTableCell.swift in Sources */,
+				0140F8691E5E91E600E61089 /* UIImageView+Extension.swift in Sources */,
+				01C39C121E51510200051EEA /* LoginNavigationController.swift in Sources */,
+				01BA7BB31E5FFE5B007C830D /* ContainerHomeVC.swift in Sources */,
+				0140F8651E5E915900E61089 /* UIColor+Extension.swift in Sources */,
+				0139E7FE1E5EDF3300627344 /* AppDelegate+GoogleSignIn.swift in Sources */,
+				0140F8671E5E91AA00E61089 /* String+Extension.swift in Sources */,
+				0128D7741E5ECEF3004C4305 /* CAPSPageMenu.swift in Sources */,
+				01C39C0E1E514FCA00051EEA /* LoginTableViewController.swift in Sources */,
+				01BA7BB11E5FD149007C830D /* LessonDetailTabbarController.swift in Sources */,
+				0139E8051E5EF2E700627344 /* HomeNavigationController.swift in Sources */,
+				01C47DA01E4FF1BD00359235 /* MainViewController.swift in Sources */,
+				01BA7BB61E6045DA007C830D /* LessonOneVC.swift in Sources */,
+				01AF6FC41E629B5700A0761F /* DictionaryVC.swift in Sources */,
+				01C39CD51E515AC900051EEA /* AlertView.swift in Sources */,
+				0140F86D1E5E96D100E61089 /* UserInfoModel.swift in Sources */,
+				0140F86B1E5E921800E61089 /* UITextField+Extension.swift in Sources */,
 				01C47D9E1E4FF1BD00359235 /* AppDelegate.swift in Sources */,
+				0139E7FF1E5EDF3300627344 /* AppDelegate+LoginFacebook.swift in Sources */,
+				01C39CD61E515AC900051EEA /* ConfirmButton.swift in Sources */,
+				01C39CDE1E515B2900051EEA /* CALayer+Extension.swift in Sources */,
+				01C39CD81E515AC900051EEA /* Reachabilities.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +861,7 @@
 				01C47DA21E4FF1BD00359235 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		01C47DA61E4FF1BD00359235 /* LaunchScreen.storyboard */ = {
@@ -157,6 +870,7 @@
 				01C47DA71E4FF1BD00359235 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -247,23 +961,34 @@
 		};
 		01C47DAD1E4FF1BD00359235 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A98FAEFF5E98CEA0D81F44C7 /* Pods-100DaysForEnglish.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 5VNQ389A9X;
 				INFOPLIST_FILE = 100DaysForEnglish/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Simson.-00DaysForEnglish";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Simson.100DaysForEnglish;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "100DaysForEnglish/Support file/100DaysForEnglish-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
 		01C47DAE1E4FF1BD00359235 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07A5F188D8B4BBAD4A3BEB30 /* Pods-100DaysForEnglish.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 5VNQ389A9X;
 				INFOPLIST_FILE = 100DaysForEnglish/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Simson.-00DaysForEnglish";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Simson.100DaysForEnglish;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "100DaysForEnglish/Support file/100DaysForEnglish-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -286,6 +1011,7 @@
 				01C47DAE1E4FF1BD00359235 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="KTE-sr-c9P">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--My profile-->
+        <scene sceneID="bs3-HH-qkF">
+            <objects>
+                <viewController id="kGW-1Y-Cg9" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2JN-BD-OCE"/>
+                        <viewControllerLayoutGuide type="bottom" id="KFq-P3-mw1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="w4a-Gc-ThM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PqF-fg-8zm">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="My profile" id="Ieh-ge-pTQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3cJ-wR-gZb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1129" y="1189"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="I6O-E7-hXx">
+            <objects>
+                <navigationController storyboardIdentifier="naviUserinfo" automaticallyAdjustsScrollViewInsets="NO" id="KTE-sr-c9P" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Profile" image="Account" selectedImage="Account-Selected" id="085-PT-WLt"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2fe-9F-MQq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="kGW-1Y-Cg9" kind="relationship" relationship="rootViewController" id="EDA-0c-qfh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tu1-f0-Oin" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-44" y="1189"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Account" width="32" height="32"/>
+        <image name="Account-Selected" width="32" height="32"/>
+    </resources>
+</document>
