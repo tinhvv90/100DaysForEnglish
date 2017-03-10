@@ -41,6 +41,9 @@
 		01C47DA31E4FF1BD00359235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C47DA11E4FF1BD00359235 /* Main.storyboard */; };
 		01C47DA51E4FF1BD00359235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01C47DA41E4FF1BD00359235 /* Assets.xcassets */; };
 		01C47DA81E4FF1BD00359235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C47DA61E4FF1BD00359235 /* LaunchScreen.storyboard */; };
+		3BCA2DD31E727DD80093C132 /* Bui-Duy-Hien-CVIOS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3BCA2DD01E727DD80093C132 /* Bui-Duy-Hien-CVIOS.pdf */; };
+		3BCA2DD41E727DD80093C132 /* Do-Hoang-Viet-TopCV.vn-080217.151736.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3BCA2DD11E727DD80093C132 /* Do-Hoang-Viet-TopCV.vn-080217.151736.pdf */; };
+		3BCA2DD51E727DD80093C132 /* iOS-Dev-Pham-Trung-Duc.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3BCA2DD21E727DD80093C132 /* iOS-Dev-Pham-Trung-Duc.pdf */; };
 		BC88B8EF461EC5E65DF5A58A /* Pods_100DaysForEnglish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39B0E631175B6360059BCC2 /* Pods_100DaysForEnglish.framework */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +86,9 @@
 		01C47DA71E4FF1BD00359235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01C47DA91E4FF1BD00359235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		07A5F188D8B4BBAD4A3BEB30 /* Pods-100DaysForEnglish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-100DaysForEnglish.release.xcconfig"; path = "Pods/Target Support Files/Pods-100DaysForEnglish/Pods-100DaysForEnglish.release.xcconfig"; sourceTree = "<group>"; };
+		3BCA2DD01E727DD80093C132 /* Bui-Duy-Hien-CVIOS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Bui-Duy-Hien-CVIOS.pdf"; sourceTree = "<group>"; };
+		3BCA2DD11E727DD80093C132 /* Do-Hoang-Viet-TopCV.vn-080217.151736.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Do-Hoang-Viet-TopCV.vn-080217.151736.pdf"; sourceTree = "<group>"; };
+		3BCA2DD21E727DD80093C132 /* iOS-Dev-Pham-Trung-Duc.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "iOS-Dev-Pham-Trung-Duc.pdf"; sourceTree = "<group>"; };
 		A98FAEFF5E98CEA0D81F44C7 /* Pods-100DaysForEnglish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-100DaysForEnglish.debug.xcconfig"; path = "Pods/Target Support Files/Pods-100DaysForEnglish/Pods-100DaysForEnglish.debug.xcconfig"; sourceTree = "<group>"; };
 		F39B0E631175B6360059BCC2 /* Pods_100DaysForEnglish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_100DaysForEnglish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -237,6 +243,7 @@
 				01C39C081E514E7D00051EEA /* Storyboards */,
 				01C39CD91E515B2900051EEA /* Extention */,
 				01C39C091E514E7D00051EEA /* Support file */,
+				3BCA2DCE1E727D9B0093C132 /* Data */,
 			);
 			path = 100DaysForEnglish;
 			sourceTree = "<group>";
@@ -247,6 +254,24 @@
 				F39B0E631175B6360059BCC2 /* Pods_100DaysForEnglish.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BCA2DCE1E727D9B0093C132 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3BCA2DCF1E727DA70093C132 /* FilePDF */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		3BCA2DCF1E727DA70093C132 /* FilePDF */ = {
+			isa = PBXGroup;
+			children = (
+				3BCA2DD01E727DD80093C132 /* Bui-Duy-Hien-CVIOS.pdf */,
+				3BCA2DD11E727DD80093C132 /* Do-Hoang-Viet-TopCV.vn-080217.151736.pdf */,
+				3BCA2DD21E727DD80093C132 /* iOS-Dev-Pham-Trung-Duc.pdf */,
+			);
+			name = FilePDF;
 			sourceTree = "<group>";
 		};
 		3BF45E4F3F4FBF0A2B51B8E3 /* Pods */ = {
@@ -324,8 +349,11 @@
 				01AF6FC01E626D8800A0761F /* LessonOne.storyboard in Resources */,
 				01C47DA81E4FF1BD00359235 /* LaunchScreen.storyboard in Resources */,
 				01C47DA51E4FF1BD00359235 /* Assets.xcassets in Resources */,
+				3BCA2DD41E727DD80093C132 /* Do-Hoang-Viet-TopCV.vn-080217.151736.pdf in Resources */,
 				01644F721E5F0B8C00174953 /* GoogleService-Info.plist in Resources */,
 				01AF6FC81E629C3F00A0761F /* UserInfo.storyboard in Resources */,
+				3BCA2DD51E727DD80093C132 /* iOS-Dev-Pham-Trung-Duc.pdf in Resources */,
+				3BCA2DD31E727DD80093C132 /* Bui-Duy-Hien-CVIOS.pdf in Resources */,
 				01C47DA31E4FF1BD00359235 /* Main.storyboard in Resources */,
 				01BA7BAE1E5FCB8C007C830D /* LessonDetail.storyboard in Resources */,
 				01AF6FC61E629BE200A0761F /* LessonTwo.storyboard in Resources */,

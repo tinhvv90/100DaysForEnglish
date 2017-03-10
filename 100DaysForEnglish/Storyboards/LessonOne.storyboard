@@ -177,8 +177,23 @@
                     <view key="view" contentMode="scaleToFill" id="jxZ-7J-rYH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PLF-jN-0lU">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.49803921569999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="PLF-jN-0lU" secondAttribute="trailing" id="M9y-SB-zIR"/>
+                            <constraint firstItem="SFB-Wm-mbT" firstAttribute="top" secondItem="PLF-jN-0lU" secondAttribute="bottom" id="TE9-Qv-Ldn"/>
+                            <constraint firstItem="PLF-jN-0lU" firstAttribute="leading" secondItem="jxZ-7J-rYH" secondAttribute="leading" id="Tjn-eo-gLP"/>
+                            <constraint firstItem="PLF-jN-0lU" firstAttribute="top" secondItem="jxZ-7J-rYH" secondAttribute="top" id="vV8-Pi-mZ6"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="webView" destination="PLF-jN-0lU" id="l6V-gy-dwO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GXx-jj-7Bn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -208,7 +223,7 @@
                 <navigationController storyboardIdentifier="naviBai1" automaticallyAdjustsScrollViewInsets="NO" id="Ezc-Dz-ltw" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Bài 1" image="Bai1" selectedImage="Bai1-Selected" id="CPH-SH-q0h"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vaY-Mi-3pJ">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="vaY-Mi-3pJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
