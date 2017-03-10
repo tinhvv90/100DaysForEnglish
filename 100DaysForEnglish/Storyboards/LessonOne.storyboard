@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Ezc-Dz-ltw">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Ezc-Dz-ltw">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -14,7 +14,6 @@
         <!--Đọc 1 bước-->
         <scene sceneID="Q45-B2-7YN">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Znu-1N-uHR" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="diI-RB-vhJ" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DnN-B5-zoV"/>
@@ -153,6 +152,7 @@
                         <outlet property="readingsLabel" destination="6Pk-fb-R9a" id="sA7-jt-zAJ"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Znu-1N-uHR" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="nnF-i4-OTi">
                     <connections>
                         <action selector="readingTap:" destination="diI-RB-vhJ" id="cA6-qJ-XRI"/>
@@ -164,7 +164,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1548" y="-212.74362818590706"/>
+            <point key="canvasLocation" x="1329" y="-213"/>
         </scene>
         <!--Reading PdfVC-->
         <scene sceneID="HfY-8f-MeW">
@@ -182,7 +182,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GXx-jj-7Bn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2321" y="-213"/>
+            <point key="canvasLocation" x="2084" y="-591"/>
         </scene>
         <!--DictionaryVC-->
         <scene sceneID="LZE-A5-2Kl">
@@ -200,16 +200,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dDv-gk-BU6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3026" y="-212"/>
+            <point key="canvasLocation" x="2084" y="119"/>
         </scene>
         <!--Bài 1-->
         <scene sceneID="IpY-aY-mra">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Mg8-by-sU4" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController storyboardIdentifier="naviBai1" automaticallyAdjustsScrollViewInsets="NO" id="Ezc-Dz-ltw" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Bài 1" image="Bai1" selectedImage="Bai1-Selected" id="CPH-SH-q0h"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="vaY-Mi-3pJ">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vaY-Mi-3pJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -218,6 +217,7 @@
                         <segue destination="diI-RB-vhJ" kind="relationship" relationship="rootViewController" id="Ybv-Tu-eww"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mg8-by-sU4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="610.39999999999998" y="-211.84407796101951"/>
         </scene>

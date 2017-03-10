@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="dLh-dj-SaB">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="dLh-dj-SaB">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -33,7 +33,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sU1-vT-T1q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1550" y="507"/>
+            <point key="canvasLocation" x="1327" y="507"/>
         </scene>
         <!--Bài 2-->
         <scene sceneID="PNT-Vx-zoI">
@@ -41,7 +41,7 @@
                 <navigationController storyboardIdentifier="naviBai2" automaticallyAdjustsScrollViewInsets="NO" id="dLh-dj-SaB" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Bài 2" image="Bai2" selectedImage="Bai2-Selected" id="qoR-IB-wCB"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="K7B-6N-gvq">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="K7B-6N-gvq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
