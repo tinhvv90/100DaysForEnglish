@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="nJq-7R-dUI">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="nJq-7R-dUI">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -37,7 +37,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u0m-P0-eHN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2712.8000000000002" y="547.37631184407803"/>
+            <point key="canvasLocation" x="1748" y="524"/>
         </scene>
         <!--Đọc 3 bước-->
         <scene sceneID="gGb-PN-1pW">
@@ -198,7 +198,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="2796" y="-173.16341829085459"/>
+            <point key="canvasLocation" x="1748" y="-173"/>
         </scene>
         <!--Lesson Detail Tabbar Controller-->
         <scene sceneID="GxJ-Xe-JB1">
@@ -247,7 +247,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UdN-RT-7mQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1394.4000000000001" y="1188.7556221889056"/>
+            <point key="canvasLocation" x="980" y="1218"/>
         </scene>
         <!--Bài 1-->
         <scene sceneID="9K9-Ln-QEJ">
@@ -255,7 +255,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iVO-0G-dtZ" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Bài 1" image="Bai1" selectedImage="Bai1-Selected" id="cao-Ey-h5n"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Ahf-P3-KAx">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ahf-P3-KAx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -266,7 +266,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="56N-RF-nUw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1856.8" y="-173.16341829085459"/>
+            <point key="canvasLocation" x="980" y="-173"/>
         </scene>
         <!--Bài 2-->
         <scene sceneID="qqM-N3-RmR">
@@ -274,7 +274,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="TMX-SH-yaF" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Bài 2" image="Bai2" selectedImage="Bai2-Selected" id="X8d-h0-goG"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="0XY-6z-XvQ">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0XY-6z-XvQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -285,7 +285,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d64-l2-HFX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1898.4000000000001" y="548.27586206896558"/>
+            <point key="canvasLocation" x="980" y="524"/>
         </scene>
         <!--My Profile-->
         <scene sceneID="JmZ-yh-acL">
@@ -293,7 +293,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="MkW-Ah-f6U" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="My Profile" image="Account" selectedImage="Account-Selected" id="ZqE-Xw-QFY"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="m60-s5-Rl7">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="m60-s5-Rl7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -304,7 +304,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9j4-Jf-f8b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="455.19999999999999" y="1188.7556221889056"/>
+            <point key="canvasLocation" x="94" y="1218"/>
         </scene>
     </scenes>
     <resources>
